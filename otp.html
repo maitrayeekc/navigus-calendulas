@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type=text/css href="style.css">
+
+      <style> 
+        body{
+            background-image: url("im5.png");
+            background-repeat : no-repeat;
+            background-color: #cccccc;
+            background-size: cover;
+            counter-reset:cover;
+            background-position: contain;
+            }
+      </style>
+    </head>
+    <body>
+        <div class="otp">
+            <form>
+                <h2>Enter your OTP here: </h2>
+                <input type="text" name="" placeholder="Enter your OTP" required pattern="/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/">
+                <a href="main.html"><input type="button" name="" value="Submit"></a>
+                <p>Haven't received otp yet ? Need another one ?</p>
+                
+                <a href="otp.html"><input type="button" name="" value="Resend OTP"></a>
+
+            </form>
+        </div>
+    </body>
